@@ -109,10 +109,12 @@ def range_overlap(ranges):
 
 
 
-test_range_overlap()
-test_range_overlap_one_range()
-test_range_overlap_no_overlap()
 
+if __name__== "__main__":
+    import sys
+    start = float(sys,argv[1])
+    end = float(sys.argv[2])
+    print range_overlap([(start,end)])
 
 
 
